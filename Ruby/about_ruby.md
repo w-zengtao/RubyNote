@@ -15,4 +15,6 @@ An Object contaions its instance variables and a reference to a class (But no me
 methods just carried by the __class__
 
 __Instance variables__ live in __Objects__; __Methods__ Live in __Classes__
+
+__Instance methods__ need an __object(class instance)__ to call 
 ```
