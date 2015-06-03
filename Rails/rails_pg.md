@@ -1,0 +1,1 @@
+rails new name -T -d postgresql
