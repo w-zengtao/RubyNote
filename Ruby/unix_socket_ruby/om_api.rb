@@ -29,7 +29,6 @@ Host:#{DEVIP}:#{PORT}
 Content-Length:#{post_detail.length + 1}
 
 #{post_detail}
-
 "
 
 puts post_string
