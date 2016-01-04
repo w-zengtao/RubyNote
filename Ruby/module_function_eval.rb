@@ -4,19 +4,19 @@ module X
   def test
     puts 'Module self call test'
   end
-  
+
   module_function :test
-  
+
   def self.included(base)
     base.extend ClassMethods
-    
-    base.class_eval do 
+
+    base.class_eval do
       def tatata
         puts 'tatata'
       end
     end
   end
-  
+
   module ClassMethods
     def cl
       puts '-' * 10
@@ -30,7 +30,7 @@ X.test
 
 class Abc
   include X
-  
+
   def he
     puts '-' * 10
     print 'class Abc call module test and '
